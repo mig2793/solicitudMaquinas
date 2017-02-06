@@ -1,0 +1,81 @@
+body, body1{
+	background-color: black;
+}
+.marco{
+	padding:18px 18px 78px 100px; 
+   	height: 400px;
+   	width: 400px;
+   	border-style: outset;
+   	border-radius: 15px;
+   	background-color: #F58A07;
+   	position:absolute;
+	top: 80px;
+}
+.img{ 
+   	padding:78px 18px 20px 100px; 
+   	width: 600px; 
+} 
+.logo{
+	position:absolute;
+	top:  40px;
+	left: 210px;
+}
+.caja1 {
+	font-family: 'sans-serif';
+	font-size: 18px;
+	color: white;
+	background-color: #F58A07;
+	border: 2px solid black;
+	position: absolute;
+	top: 200px;
+	width: 330px;
+}
+.caja2 {
+	font-family: 'sans-serif';
+	font-size: 18px;
+	color: white;
+	border: 2px solid black;
+	position: absolute;
+	top: 280px;
+	width: 330px;
+	background-color: #F58A07;
+}
+.button {
+	position: absolute;
+	top: 360px;
+	width: 110px;
+	left: 210px;
+	border-radius: 10px;
+	font-family: 'Pangolin', cursive;
+	text-decoration:none;
+	background:#e67e22;
+	box-shadow:2px 2px 0px white;
+}
+.button1, .button2 {
+	position: absolute;
+	top: 420px;
+	width: 110px;
+	left: 210px;
+	border-radius: 10px;
+	font-family: 'Pangolin', cursive;
+	text-decoration:none;
+	background:#e67e22;
+	box-shadow:2px 2px 0px white;
+}
+.titulo {
+	font-family: 'sans-serif';
+	font-size: 18px;
+	color: rgba(255,255,255,0.6);
+}
+.notificacion { 
+	color: #d45252; 
+	margin: 5px 0 0 0; 
+	display: inline; 
+	float: right; 
+}  
+
+/*Registro*/
+
+input{border: 2px solid blue;border-radius: 20px;box-shadow: 2px 2px 2px white;}
+
+/**/
