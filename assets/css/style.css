@@ -1,7 +1,39 @@
-body, body1{
+/*
+body index Principal
+
+body {
 	background-color: black;
+}*/
+
+/*Globales*/
+body{
+	background-color: #809A88;
+	width:100%;
+	height: auto;
 }
-.marco{
+
+input,select{
+	width: 30%;
+	height:35px;
+	margin-top: 10px;
+	border :2px solid black;
+	border-top:0px;
+	border-left: 0px;
+	border-right: 0px;
+	background-color: transparent;
+}
+
+button{
+	width: 30%;
+	height: 40px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #809A88;
+	margin-top: 10%;
+	border:2px solid black;
+}
+
+/************************************************/
+.marco {
 	padding:18px 18px 78px 100px; 
    	height: 400px;
    	width: 400px;
@@ -11,11 +43,11 @@ body, body1{
    	position:absolute;
 	top: 80px;
 }
-.img{ 
+.img { 
    	padding:78px 18px 20px 100px; 
    	width: 600px; 
 } 
-.logo{
+.logo {
 	position:absolute;
 	top:  40px;
 	left: 210px;
@@ -51,7 +83,7 @@ body, body1{
 	background:#e67e22;
 	box-shadow:2px 2px 0px white;
 }
-.button1, .button2 {
+.button1 {
 	position: absolute;
 	top: 420px;
 	width: 110px;
@@ -67,15 +99,28 @@ body, body1{
 	font-size: 18px;
 	color: rgba(255,255,255,0.6);
 }
-.notificacion { 
-	color: #d45252; 
-	margin: 5px 0 0 0; 
-	display: inline; 
-	float: right; 
-}  
 
 /*Registro*/
 
-input{border: 2px solid blue;border-radius: 20px;box-shadow: 2px 2px 2px white;}
+#content-register{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color:white;
+	padding: 20px;
+	margin:0 auto;
+	left:0;
+	right: 0;
+	position:absolute;
+}
+.button-black{
+	background-color: #3e3e3e;
+	color:white;
+	font-family: 'Pangolin', cursive;
+	margin-top: 7%;
 
-/**/
+
+}
+
+/**************************************/
