@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
 /*Globales*/
 body{
-		width:100%;
+	width:100%;
 	height: auto;
 }
 
@@ -108,7 +108,8 @@ button{
 	margin:0 auto;
 	left:0;
 	right: 0;
-	position:absolute;
+	position: absolute;
+
 }
 .button-black{
 	background-color: #3e3e3e;
@@ -122,10 +123,40 @@ button{
 	background-color: #809A88;
 }
 
-/**************************************/
+/******************Inicio_Usuario********************/
+
+#fondo2{
+	background-color: #809A88;
+}
+.inicio-content{
+	width: 85%;
+	margin: 0 auto;
+	padding: 20px;
+}
+.box-classSolid{
+	width: 90%;
+	height: 65px;
+	background-color: #F58A07;
+	padding: 15px;
+	margin-top: 60px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px black;
+}
+.content{
+	background-color: white;
+	width: 80%;
+	height: 100%;
+	position:absolute;
+	padding: 20px;
+	margin:0 auto;
+	left:0;
+	right: 0;
+}
+
+/****************************************************/
 =======
 body{
 	width: 100%;
 	height: 100%;
 }
->>>>>>> 6d2eec4ee63298a05f0d7778c06031ae45425166
+/*>>>>>>> 6d2eec4ee63298a05f0d7778c06031ae45425166*/

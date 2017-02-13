@@ -1,0 +1,18 @@
+<div class="content">
+                <div class="inicio-content">
+                <h1>Tus Solicitudes</h1>
+                    <div id="box-solicitudesP" class="box-classSoli">
+                        <span>Escanner 3D</span><br>
+                        <span>Fecha : 12-04-2016 8:00 am</span><br>
+                        <span>Andres Barrientos</span>
+                    </div>
+                <br>
+                <br>
+                <h1>Aprobadas</h1>
+                    <div id="box-solicitudesA" class="box-classSoli">
+                        <span>Impresoras 3D</span><br>
+                        <span>Fecha : 12-04-2016 10:00 am</span><br>
+                        <span>Andres Barrientos</span>
+                    </div>
+                </div>
+</div>

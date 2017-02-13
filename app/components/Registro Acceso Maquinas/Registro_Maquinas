@@ -1,0 +1,30 @@
+<div style="height: 100%;overflow:hidden;">
+        <div id="content-register">
+            <br>
+            <br>
+            <h1>Regístro Acceso Maquina</h1>
+            <select>
+                <option selected disabled>Maquina a Utilizar</option>
+            </select>
+            <br>
+            <select>
+                <option selected disabled>Rol del Usuario</option>
+            </select>
+            <br>
+            <select>
+                <option selected disabled>Materiales que Utilizara</option>
+            </select>
+            <br>
+            <input type="time" placeholder="Hora de Ingreso" required> 
+            <br>
+            <input type="time" placeholder="Hora de Salida" required> 
+            <br>
+            <input type="date" placeholder="Fecha" required> 
+            <br>
+            <input type="text" placeholder="Detalle de la Actividad" required> 
+            <br>
+            <input type="text" placeholder="Materiales a Utilizar" required>
+            <br> 
+            <button type="button" class="button-black">Enviar</button>
+        </div>iv>
+</div>
