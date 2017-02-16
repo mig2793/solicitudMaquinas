@@ -1,30 +1,38 @@
-<div style="height: 100%;overflow:hidden;">
-        <div id="content-register">
-            <br>
-            <br>
-            <h1>Regístro Acceso Maquina</h1>
-            <select>
-                <option selected disabled>Maquina a Utilizar</option>
-            </select>
-            <br>
-            <select>
-                <option selected disabled>Rol del Usuario</option>
-            </select>
-            <br>
-            <select>
-                <option selected disabled>Materiales que Utilizara</option>
-            </select>
-            <br>
-            <input type="time" placeholder="Hora de Ingreso" required> 
-            <br>
-            <input type="time" placeholder="Hora de Salida" required> 
-            <br>
-            <input type="date" placeholder="Fecha" required> 
-            <br>
-            <input type="text" placeholder="Detalle de la Actividad" required> 
-            <br>
-            <input type="text" placeholder="Materiales a Utilizar" required>
-            <br> 
-            <button type="button" class="button-black">Enviar</button>
-        </div>iv>
-</div>
+<body id = "fondo2">
+            <div id="content-register">
+                <br>
+                <br>
+                <h1>Regístro Acceso Maquina</h1>
+                <select>
+                    <option selected disabled>Maquina a Utilizar</option>
+                </select>
+                <br>
+                <select>
+                    <option selected disabled>Rol del Usuario</option>
+                </select>
+                <br>
+                <select>
+                    <option selected disabled>Materiales que Utilizara</option>
+                </select>
+                <br>
+                <br>
+                <div class="horas"><span>Hora de Inicio</span></div>
+                <br>
+                <input type="time" required> 
+                <br>
+                <br>
+                <div class="horas"><span>Hora de Salida</span></div>
+                <br>
+                <input type="time" required> 
+                <br>
+                <input type="date" placeholder="Fecha" required> 
+                <br>
+                <br>
+                <textarea rows="4" cols="38" placeholder= "Detalle de la Actividad"></textarea> 
+                <br>
+                <br>
+                <textarea rows="4" cols="38" placeholder= "Materiales a Utilizar"></textarea> 
+                <br> 
+                <button type="button" class="button-black">Enviar</button>
+            </div>
+</body>
