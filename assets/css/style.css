@@ -23,6 +23,13 @@ button{
 	margin-top: 10%;
 	border:2px solid black;
 }
+#clear{
+	clear: both;
+}
+#clear1{
+	clear: both;
+	height: 80px;
+}
 
 /*********************Login**********************/
 #fondo1{
@@ -54,10 +61,6 @@ button{
 	float: left;
 	position: relative;
 	min-width: 200px;
-	
-}
-#clear{
-	clear: both;
 }
 .caja2 {
 	font-family: 'sans-serif';
@@ -100,7 +103,7 @@ button{
 
 #content-register{
 	width: 80%;
-	height: 0 auto;
+	height:100%;
 	margin: 0 auto;
 	text-align: center;
 	background-color:white;
@@ -114,7 +117,7 @@ button{
 	background-color: #3e3e3e;
 	color:white;
 	font-family: 'Pangolin', cursive;
-	margin-top: 5%;
+	margin-top: 10%;
 }
 .horas{
 	width: 30%;
