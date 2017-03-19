@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app ="Inicio">
+<html lang="en" ng-app ="escomWeb">
     <head>
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
@@ -12,48 +12,35 @@
         <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
         <link href = "https://fonts.googleapis.com/css?family= Pangolin " rel = "stylesheet">
-
-        <!--Libs
-        <link rel="stylesheet" type="text/css" href="assets/lib/jquery-mobile/jquery.mobile-1.4.5.min.css">
-        -->
-        <title>Control_Maquinaria_ESCOM</title>
+        <title>Control Maquinaria ESCOM</title>
     </head>
     <body>
-        <div class="margins" style="height: 100%;overflow:hidden;">
+        <div ui-view class="margins" style="height: 100%;overflow:hidden;">
 
          </div>
-        <div id="content-register">
-            <h1>Novedades relacionadas con el Laboratorio</h1>
-            <select>
-                <option selected disabled>Maquina</option>
-            </select>
-            <div id="clear1">&nbsp;</div>
-            <div class="horas" id="clear"><span>Detalle de la Novedad</span></div>
-            <br>
-            <br>
-            <textarea rows="4" cols="38"></textarea> 
-            <br>
-             <div id="clear">&nbsp;</div>
-            <select>
-                <option selected disabled>Prioridad</option>
-            </select>
-            <br>
-            <button type="button" class="button-black">Regístrar</button>
-        </div>
+   
         <!--Libs-->
         <script src="assets/lib/jquery/dist/jquery.min.js"></script>
 
-        <!--<script src="assets/lib/angular/angular.min.js"></script>
+        <script src="assets/lib/angular/angular.min.js"></script>
         <script src="assets/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
         <script src="assets/lib/angular-modal-service/dst/angular-modal-service.min.js"></script>
-        -->
+
         <!--Route-->
-        <!--<script src="app/app.module.js"></script>
-        <script src="app/app.route.js"></script>-->
+        <script src="app/app.module.js"></script>
+        <script src="app/app.route.js"></script>
 
         <!--Factorys and directive-->
         <script src="assets/js/globals.js"></script>
         <script src="assets/js/directive.js"></script>
+
+        <!--Controllers-->
+        <script src="app/components/Login/loginController.js"></script>
+        <script src="app/components/principalUser/PrincipalUserController.js"></script>   
+        <script src="app/components/menuAdmin/menuController.js"></script>
+        <script src="app/components/NovedadesLab/novedadesLabController.js"></script>
+        <script src="app/components/RegistrMaquina/RegistrarMaquinaController.js"></script>
+        <script src="app/components/registro/RegistroController.js"></script>
 
     </body>
 </html>

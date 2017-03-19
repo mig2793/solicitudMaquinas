@@ -1,4 +1,4 @@
- var report = angular.module('report', ['ui.router', 'angularModalService']);
+ var escom = angular.module('escomWeb', ['ui.router', 'angularModalService']);
 
 /*setTimeout(function(){
 	try{
